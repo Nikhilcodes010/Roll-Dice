@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-size: 2rem;
+    background-color: #D8D3CD;
+}
+.container{
+    
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    
+}
+img{
+    height: 10rem;
+    width: 10rem;
+}
+button{
+    height: 4rem ;
+    width: 8rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    opacity: 0.5;
+}
